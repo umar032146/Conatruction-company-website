@@ -1,0 +1,487 @@
+.sidebar{
+    display: flex;
+   height: fit-content;
+   justify-content: center;
+   gap: 5px; 
+   margin-top: 15px;
+}
+.news_left{
+    width: 250px;
+    
+}
+.sidebar-img{
+    width: 80px;
+    height: 70px;
+}
+.newsside-bar{
+    width: 250px;
+   
+}
+.newsside-bar h5{
+    margin-bottom: 30px;
+    font-weight: bolder;
+    padding-left: 15px;
+    border-left: 5px solid rgb(255, 204, 0);
+}
+.sidebar h5{
+
+    font-size: 11px;
+    font-weight: bolder;
+    line-height: 20px;
+    text-align: left;
+   border: none;
+   margin-bottom: 20px;
+}
+.category-sidebar h1{
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    padding-left: 15px;
+    border-left: 5px solid rgb(255, 204, 0);
+}
+.categories{
+    display: flex;
+    flex-direction: column;
+}
+.categories button{
+   text-align: left;
+   padding: 5%;
+    background-color:white;
+    border: none;
+    color: rgb(50, 50, 50);
+    border-bottom: 1px solid gray;    
+    transition: color 0.5s ease;
+
+}
+.categories button:hover{
+    color:rgb(255, 204, 0) ;
+}
+.tags-sidebar h1{
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    padding-left: 15px;
+    border-left: 5px solid rgb(255, 204, 0);   
+}
+.tags button{
+    background-color: white;
+    border: 1px solid gray;    
+    color: rgb(38, 38, 38);
+    font-size: 12px;
+    padding: 4%;
+    margin-bottom: 10px;
+    margin-right: 7px;
+    transition: color 0.5s ease;
+    transition: background-color 0.5s ease;
+}
+.tags button:hover{
+    border: none;
+     background-color:rgb(255, 204, 0) ;
+     color: white;
+}
+.newssection{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.readpages{
+    width: 550px;
+}
+.readpage{
+    width: 550px;
+    margin-top: 50px;
+}
+.readpage img{
+    width: 550px;
+}
+.readpages-icons{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    width: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.readpages-icons p{
+  color: rgb(18, 18, 18);
+  font-size: 14px;
+  transition: color 0.5s ease;
+}
+.readpages-icons p:hover{
+ color: rgb(255, 204, 0);   
+}
+.readicons{
+    margin-right: 10px;
+    color: gray;
+}
+.readpage h5{
+    font-weight: bolder;
+    font-size: 23px;
+    color: rgb(20, 20, 20);
+    transition: color 0.5s ease;
+}
+.readpage h5:hover{
+    color:rgb(255, 204, 0);
+}
+.readpage p{
+    color: rgb(90, 90, 90);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.readpage button{
+    padding: 1.5%;
+    background-color:rgb(255, 204, 0);
+    border: none;
+    color: white;
+    font-weight: bolder;
+    transition: background-color 0.5s ease;
+}
+.readpage button:hover{
+    background-color: rgb(20, 20, 20);
+}
+.block-quote {
+    background-color: #f0f0f0;
+    font-size: 12px;
+    margin: 10px;
+    padding: 10px 40px;
+    position: relative;
+   color: gray;
+    /* margin-bottom: 20px; */
+  }
+  .block-quote:before {
+    content: "\201C";
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    color: #ccc;
+  }
+  .block-quote.left {
+    text-align: left;
+    border-left: 4px solid rgb(255, 204, 0);
+  }
+  .readpage-tags button{
+    background-color: white;
+    border: 1px solid gray;    
+    color:gray;
+    font-size: 10px;
+    padding: 1%;
+    margin-bottom: 10px;
+    margin-right: 7px;
+    transition: color 0.5s ease;
+    transition: background-color 0.5s ease; 
+  }
+  .readpage-tags button:hover{
+    color: white;
+    border: none;
+    background-color: rgb(255, 204, 0);
+  }
+  .icons-readpages{
+    text-align: left;
+  }
+.icons-readpages i{
+    text-decoration: none;
+    font-size: 0.7em;
+    padding: 10px;
+    border-radius: 0; /* No border radius */
+    color: #fff;
+}
+ .facebook{
+    background-color: #3b5998; /* Facebook brand color */
+}
+
+ .twitter{
+    background-color: #1da1f2; /* Twitter brand color */
+}
+
+.google{
+    background-color: #db4437; /* Google+ brand color */
+ }
+.linkedin {
+    background-color: #0077b5; /* LinkedIn brand color */
+}
+.comments{
+    width: 50%;
+    margin-left: 100px;
+}
+.comments h1{
+ 
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 20px;
+    text-align: left;
+   border: none;
+   margin-bottom: 20px;   
+}
+.elton{
+    padding: 10px;
+    display: flex;
+    border: 1px solid gray;
+    margin-bottom: 50px;
+}
+.elton img{
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.elton-info{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.elton-headings{
+    display: flex;
+}
+.elton-headings h1{
+    font-size: 17px;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+.elton-headings h3{
+    font-size: 12px;
+    /* font-weight: bolder; */
+    color: gray;
+    padding: 5px ;
+    padding-left: 10px;
+    border-left: 1px solid gray;
+}
+
+
+
+.comment-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 30px;
+
+}
+.comment-section img{
+    width: 70px;
+    height: 70px;
+}
+.cmt-head{
+    display: flex;
+    justify-content: space-between;
+}
+.cmt-head h1{
+    font-size: 15px;
+}
+.cmt-head p{
+    font-size: 10px;
+    padding-top: 5px;
+}
+.cmt-info h5{
+font-size: 12px;
+}
+
+.post-cmt{
+    width: 50%;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.post-cmt h1{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.cmt-input textarea{
+width: 100%;
+height: 200px;
+margin-bottom: 20px;
+}
+.input-row{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.input-row input{
+    width: 150px;
+    height: 40px;
+}
+.post-cmt button{
+    margin-top: 30px;
+    border: none;
+    background-color:rgb(255, 204, 0);
+    padding: 1%;
+    color: white;
+    font-weight: bolder;
+}
+
+@media screen and (max-width:450px){
+    .newssection{
+        flex-direction: column;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .news_left{
+        width: 100%;
+        margin: 0%;
+    }
+    .newsside-bar{
+        width: 100%;
+        
+    }
+    .newsside-bar h5{
+        margin-left: 10px;
+    }
+    .sidebar{
+        width: 90%;
+        margin: 1% 5%;
+    }
+    .category-sidebar h1{
+        margin-left: 10px;
+    }
+    .category-sidebar{
+        width: 100%;
+    }  
+    .categories{
+        width: 100%;
+    }
+    .categories button{
+        width: 90%;
+        margin: 0% 5%;
+    }
+    .tags-sidebar h1{
+        margin-left: 10px;
+    }
+    .readpages{
+        width: 100%;
+        margin: 0%;
+        /* border: 1px solid black; */
+
+    }
+    .readpage{
+        width: 100%;
+        margin: 0%;
+        margin-bottom: 20px;
+        /* border: 1px solid black; */
+    }
+    
+    .readpages .readpage img{
+        width: 90%;
+        /* margin-left: 10%; */
+       margin: 0% 5%;
+    }
+    
+    .readpages-icons{
+     width: 90%;
+     margin: 0% 5%;
+    }
+    .readpages-icons p{
+        font-size: 10px;
+        padding: 0%;
+        margin: 0%;
+    }
+    .readpage h5{
+        padding: 0% 10%;
+        font-size: 25px;
+    }
+    .readpage p{
+        padding: 0% 10%;
+    }
+    .readpage button{
+        width: 50%;
+        margin: 0% 25%;
+    }
+    .elton{
+        width: 100%;
+    }
+    .comments{
+        width: 90%;
+        margin: 0% 5%;
+    }
+    .post-cmt{
+        margin: 0%;
+        width: 90%;
+        margin: 0% 5%;
+        margin-bottom: 20px;
+    }
+    .post-cmt button{
+        margin: 0%;
+        width: 40%;
+        margin: 2% 30%;
+    }
+    .input-row{
+        margin: 0%;
+        width: 90%;
+        margin: 0% 5%;
+        flex-direction: column;
+    }
+    .input-row input{
+        margin: 0%;
+        width: 90%;
+        margin: 0% 5%;  
+    }
+   
+}
+
+@media screen and (min-width:500px) and (max-width:800px){
+.readpages{
+    width: 300px;
+}
+.readpage{
+    width: 300px;
+}
+.readpage img{
+    width: 100%;
+}    
+.readpages-icons{
+    width: 100%;
+}
+.comments{
+    width: 90%;
+    margin: 0% 5%;
+}
+.post-cmt{
+    margin: 0%;
+    width: 90%;
+    margin: 0% 5%;
+    margin-bottom: 20px;
+}
+.post-cmt button{
+    margin: 0%;
+    width: 40%;
+    margin: 2% 30%;
+}
+.input-row{
+    margin: 0%;
+    width: 90%;
+    margin: 0% 5%;
+    flex-direction: column;
+}
+.input-row input{
+    margin: 0%;
+    width: 90%;
+    margin: 0% 5%;  
+}
+
+
+}
+
+@media screen and (min-width:1200px) and (max-width:1500px){
+    .comments{
+        width: 50%;
+        margin: 2% 25%;
+    }
+    .post-cmt{
+        width: 50%;
+        margin: 2% 25%;
+    }
+}
+@media screen and (min-width:1600px) and (max-width:2600px){
+   
+
+    .comments{
+        width: 50%;
+        margin: 2% 25%;
+    }
+    .post-cmt{
+        width: 50%;
+        margin: 2% 25%;
+    }
+
+}

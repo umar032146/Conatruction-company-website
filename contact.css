@@ -1,0 +1,206 @@
+.location-sec{
+    background-color:rgb(19, 19, 19);
+    color: white;
+    width: 250px;
+    height: 180px;
+    text-align: center;
+}
+.location-sec i{
+    background-color: rgb(255, 204, 0);
+    padding: 5%;
+    font-size: 15px;
+    border-radius: 100%;
+    margin-top: 40px;
+}
+.location-sec h4{
+    font-weight: bolder;
+}
+.location-sec p{
+    font-size: 12px;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+#map {
+    height: 400px;
+    width: 80%;
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+  .input-part{
+    display: flex;
+    flex-direction: column;
+  }
+  .input-part label{
+    text-align: left;
+    
+  }
+  .input-part input{
+    text-align: left;
+    height: 40px;
+    width: 250px;
+  }
+  .input-row{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact h1{
+    font-weight: bolder;
+    text-align: center;
+  }
+  .contact label{
+    margin-left: 100px;
+   margin-bottom: 10px;
+   margin-top: 10px; 
+    /* height: 100px; */
+  }
+  .contact textarea{
+    width: 80%;
+    height: 200px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+  }
+  .contact button{
+    border: none;
+    background-color: rgb(255, 204, 0);
+    color: white;
+    font-weight: bolder;
+    width: 15%;
+    padding: 1%;
+    margin-left: 750px;
+    transition: background-color 0.5s ease;
+    margin-bottom: 30px;
+  }
+  .contact button:hover{
+    background-color:rgb(16, 16, 16) ;
+  }
+
+  @media screen and (max-width:450px){
+
+    .location{
+      flex-direction: column;
+      width: 100%;
+
+    }
+    .location-sec{
+      width: 90%;
+      margin: 0% 5%;
+    }
+    #map{
+      margin: 0%;
+      width: 90%;
+      margin: 0% 5%;
+    }
+    .contact{
+      width: 100%;
+    }
+    .input-row{
+      flex-direction: column;
+      width: 100%;
+    }
+    .input-part{
+      width: 100%;
+    }
+    .input-part input{
+      margin: 0%;
+      width: 90%;
+      margin: 0% 5%;
+    }
+    .input-part label{
+      text-align: left;
+    }
+    .contact textarea{
+      margin: 0%;
+      width: 90%;
+      margin: 0% 5%;
+    }
+    .contact button{
+      margin: 0%;
+      width: 40%;
+      margin: 2% 30%;
+    }
+  }
+  @media screen and (min-width:500px) and (max-width:800px){
+
+    .location{
+      margin: 0%;
+      width: 90%;
+      margin: 2% 5%;
+    }
+    .input-row{
+      flex-direction: column;
+      width: 100%;
+    }
+    .input-part{
+      width: 100%;
+    }
+    .input-part input{
+      margin: 0%;
+      width: 90%;
+      margin: 0% 5%;
+    }
+    .input-part label{
+      text-align: left;
+    }
+    .contact textarea{
+      margin: 0%;
+      width: 90%;
+      margin: 0% 5%;
+    }
+
+    .contact button{
+      margin: 0%;
+      width: 40%;
+      margin: 2% 30%;
+    }
+    
+  }
+
+  @media screen and (min-width:1200px) and (max-width:1500px){
+   #map{
+    width: 50%;
+    margin: 5% 25%;
+   }    
+   .contact{
+    width: 70%;
+    margin: 5% 15%;
+   }
+   .contact textarea{
+    width: 70%;
+    margin: 2% 15%;
+   }
+  }
+
+  @media screen and (min-width:1600px) and (max-width:2600px){
+
+    #map{
+      width: 50%;
+      margin: 5% 25%;
+     }    
+     .contact{
+      width: 70%;
+      margin: 5% 15%;
+     }
+     .contact label{
+      text-align: center;
+      margin-top: 1%;
+     }
+     .contact textarea{
+      width: 70%;
+      margin: 0% 15%;
+     }
+
+
+
+  }

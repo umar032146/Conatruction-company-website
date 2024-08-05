@@ -1,0 +1,81 @@
+
+.leaderships{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.our-team{
+    margin-top: 70px;
+}
+.our-team h1{
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.team-member{
+    width: 180px;
+    /* border: 1px solid black; */
+}
+.team-member img{
+    width: 100%;
+}
+.team-member h3{
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: left;
+}
+.team-member h4{
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: left;
+    color: rgb(166, 166, 166);
+}
+.team-member p{
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.team-member i{
+    color: rgb(166, 165, 165);
+    transition: color 0.5s ease;
+}
+.team-member i:hover{
+    color: rgb(255, 204, 0);
+}
+.rest-team{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media screen and (max-width:450px){
+
+    .leaderships{
+        flex-direction: column;
+    }
+    .team-member{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .team-member img{
+          width: 90%;
+          margin: 0%;
+          margin-left: 5%;
+          margin-right: 5%;
+    }
+    .team-member h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    .team-member h4{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .rest-team{
+        width: 100%;
+        flex-direction: column;
+    }
+}

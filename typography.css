@@ -1,0 +1,147 @@
+.typography{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.heading{
+    width: 400px;
+}
+.heading-head{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.heading h1{
+    font-weight: bolder;   
+}
+.heading h2{
+    font-weight: bolder;
+}
+.heading h3{
+    font-weight: bolder;
+}
+.heading h4{
+    font-weight: bolder;
+}
+.heading h5{
+    font-weight: bolder;
+}
+.heading h6{
+    font-weight: bolder;
+}
+.heading p{
+    color: gray;
+}
+
+.paragraph{
+    width: 400px;
+}
+.paragraph h1{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.paragraph p{
+    color: gray;
+    line-height: 30px;
+}
+.first{
+    background-color: bisque;
+}
+.second{
+    color: rgb(0, 141, 0);
+}
+.third{
+    color: red;
+}
+
+.block-quote {
+    background-color: #f0f0f0;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px 40px;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+  }
+  .block-quote:before {
+    content: "\201C";
+    font-size: 4em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    color: #ccc;
+  }
+  .block-quote.left {
+    text-align: left;
+    border-left: 4px solid rgb(255, 204, 0);
+  }
+  .block-quote.center {
+    text-align: center;
+    border-top: 4px solid rgb(255, 204, 0);
+  }
+  .block-quote.right {
+    text-align: right;
+    border-right: 4px solid rgb(255, 204, 0);  
+}
+
+.alert {
+    background-color: #f9d6d5;
+    color: #a94442;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #a94442;
+    border-radius: 5px;
+    position: relative;
+    font-family: Arial, sans-serif;
+    text-align: left;
+  }
+
+  .closebtn {
+    color: #a94442;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .closebtn:hover {
+    color: #d9534f;
+  }
+  .green{
+    background-color: #dff9d5;
+    border: 1px solid rgb(106, 197, 106);
+    color: rgb(50, 95, 50);
+  }
+  .greenbtn{
+    color: rgb(50, 95, 50);
+  }
+  .yellow{
+    background-color: #f9f0d5;
+    border: 1px solid #91700f;
+    color: #91700f; 
+  }
+  .alert h1{
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  @media screen and (max-width:450px){
+    .typography{
+      flex-direction: column;
+      width: 100%;
+    }
+    .heading{
+      width: 100%;
+      margin: 0%;
+      text-align: center;
+    }
+    .heading p{
+      padding: 0px 10px;
+    }
+    .paragraph{
+      width: 100%;
+      margin: 0%;
+      text-align: center;
+    }
+    .paragraph p{
+      padding: 0px 10px;
+    }
+  }
